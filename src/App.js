@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-	return (
-		<div className='mt-16'>
-			<h2>Hello</h2>
-		</div>
-	);
+	return <Body />;
 }
 
 export default App;
